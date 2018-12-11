@@ -99,6 +99,7 @@ The format of the webhook URL should be like:
 ```
 https://{your_app_url}/callback
 ```
+# Congratulations and best wishes for your next adventure!
 
 # Other Information
 ## Reference
