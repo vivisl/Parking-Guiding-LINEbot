@@ -55,6 +55,9 @@ Git clone this repository and run the following command. Output image will be st
 cd YOLO3-4-Py/
 python Parking_1107.py
 ```
+Original camera frame and parking space image:
+![alt tag](https://i.imgur.com/ogFAWzU.jpg)![alt tag](https://i.imgur.com/t7K8eYg.jpg)
+
 ## Sent the Output Image to LINEbot
 Before runing sendImg.py, you need to instasll [Flask](http://flask.pocoo.org/docs/1.0/installation/) first.
 ```
