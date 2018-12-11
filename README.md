@@ -81,7 +81,6 @@ heroku login
 (2) Use Git to clone my ```parking-space-guiding```'s source code to your local machine. The structure of the source code is as the following picture.   
 ```
 heroku git:clone -a parking-space-guiding
-cd parking-space-guiding
 ```
 ![alt tag](https://i.imgur.com/39HoBge.png)
 
@@ -99,8 +98,9 @@ Channel_Secret = YOUR_CHANNEL_SECRET
 ![alt tag](https://i.imgur.com/vTFEj2L.jpg)
 
 ### Deploy the LINEbot Program to Heroku
-Make some changes to the ```app_run.py``` and deploy it to Heroku using Git. Please also reffer to this tutorial  https://github.com/twtrubiks/Deploying-Flask-To-Heroku to clearly know how to deploy flask to heroku. 
+Make some changes to the ```app_run.py``` and deploy it to Heroku using Git. Please also reffer to [this tutorial]( https://github.com/twtrubiks/Deploying-Flask-To-Heroku) to clearly know how to deploy flask to heroku. 
 ```
+cd parking-space-guiding
 git add .
 git commit -am "make it better"
 git push heroku master
