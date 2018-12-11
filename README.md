@@ -74,22 +74,16 @@ python sendImg.py
 ```
 ## Get the Parking Space Image
 ### Get the LINE Bot Program
-(1)Install the Heroku CLI
-
-Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
+(1) Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
 ```
 heroku login
 ```
-(2) Clone the repository
-
-Use Git to clone my ```parking-space-guiding```'s source code to your local machine.
+(2) Use Git to clone my ```parking-space-guiding```'s source code to your local machine.
 ```
 heroku git:clone -a parking-space-guiding
 cd parking-space-guiding
 ```
-(3) Deploy your changes
-
-Make some changes to the code you just cloned and deploy them to Heroku using Git.
+(3) Deploy your changes. Make some changes to the code you just cloned and deploy them to Heroku using Git.
 ```
 git add .
 git commit -am "make it better"
