@@ -99,7 +99,8 @@ The format of the webhook URL should be like:
 ```
 https://{your_app_url}/callback
 ```
-# Congratulations and best wishes for your next adventure!
+### Congratulations and best wishes for your next adventure!
+![alt tag](https://www.google.com.tw/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjPtrzxiZjfAhXGyLwKHa8oAp0QjRx6BAgBEAU&url=http%3A%2F%2Fwww.nipic.com%2Fshow%2F15947886.html&psig=AOvVaw20jOpJW_-jGjOsyc628K95&ust=1544627987475805)
 
 # Other Information
 ## Reference
