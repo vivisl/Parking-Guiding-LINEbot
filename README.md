@@ -50,13 +50,13 @@ which is sent to LINE bot through the FLASK framework.
 Follow the instructions on the YOLO website above to build YOLOv3 and learn how it works. Darknet on the CPU is fast but it's like 500 times faster on GPU! So I strongly suggest you to have an Nvidia GPU and you'll have to install CUDA. 
 
 ## Train the YOLOv3 Program
-Git clone this repository and run the following command. Output image will be stored in ./YOLO3-4-Py/output
+Git clone this repository and run the following command. Output image will be stored in ```/YOLO3-4-Py/output```
 ```
 cd YOLO3-4-Py/
 python Parking_1107.py
 ```
-Original camera frame and parking space image:
-![alt tag](https://i.imgur.com/ogFAWzU.jpg)![alt tag](https://i.imgur.com/t7K8eYg.jpg)
+There are two images in the ```ouput/```, original camera frame and parking space image for comparison.
+![alt tag](https://i.imgur.com/HBKYl9O.jpg)![alt tag](https://i.imgur.com/t7K8eYg.jpg)
 
 ## Sent the Output Image to LINEbot
 Before runing sendImg.py, you need to instasll [Flask](http://flask.pocoo.org/docs/1.0/installation/) first.
