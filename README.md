@@ -78,17 +78,13 @@ python sendImg.py
 ```
 heroku login
 ```
-(2) Use Git to clone my ```parking-space-guiding```'s source code to your local machine.
+(2) Use Git to clone my ```parking-space-guiding```'s source code to your local machine. The structure of the source code is as the following picture.   
 ```
 heroku git:clone -a parking-space-guiding
 cd parking-space-guiding
 ```
-(3) Deploy your changes. Make some changes to the code you just cloned and deploy them to Heroku using Git.
-```
-git add .
-git commit -am "make it better"
-git push heroku master
-```
+![alt tag](https://i.imgur.com/39HoBge.png)
+
 ### Prepare Your Own LINE Provider
 (1) Go to [LINE Developers](https://developers.line.biz/en/) and login with your LINE account to create your own LINE provider.
 ![alt tag](https://i.imgur.com/nGPF2A1.png)
@@ -103,8 +99,12 @@ Channel_Secret = YOUR_CHANNEL_SECRET
 ![alt tag](https://i.imgur.com/vTFEj2L.jpg)
 
 ### Deploy the LINEbot Program to Heroku
-Please reffer to this tutorial https://github.com/twtrubiks/Deploying-Flask-To-Heroku to learn how to deploy flask to heroku.
-
+Make some changes to the ```app_run.py``` and deploy it to Heroku using Git. Please also reffer to this tutorial  https://github.com/twtrubiks/Deploying-Flask-To-Heroku to clearly know how to deploy flask to heroku. 
+```
+git add .
+git commit -am "make it better"
+git push heroku master
+```
 The deployed result is shown as follow.
 
 ![alt tag](https://i.imgur.com/opCZyum.png)
