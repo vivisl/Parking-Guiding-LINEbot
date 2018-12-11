@@ -21,6 +21,7 @@ In addition, it can be further improved by combining with other image processing
   * [YOLO real-time object detection](#YOLO-real-time-object-detection)
   * [Sent the Output Image to LINEbot](#sent-the-output-image-to-lINEbot)
   * [Get the Parking Space Image](#Get-the-parking-space-image)
+    * [Get the LINE Bot Program](#Get-the-LINE-Bot-Program)
     * [Prepare Your Own LINE Provider](#prepare-your-own-LINE-provider)
     * [Deploy the LINEbot Program to Heroku](#deploy-the-LINEbot-program-to-heroku)
     * [Set the Webhook URL](#set-the-webhook-url)
@@ -76,21 +77,16 @@ python sendImg.py
 (1)Install the Heroku CLI
 
 Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
-
-If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
-
 ```
 heroku login
 ```
-
 (2) Clone the repository
 
-Use Git to clone my parking-space-guiding's source code to your local machine.
+Use Git to clone my ```parking-space-guiding```'s source code to your local machine.
 ```
 heroku git:clone -a parking-space-guiding
 cd parking-space-guiding
 ```
-
 (3) Deploy your changes
 
 Make some changes to the code you just cloned and deploy them to Heroku using Git.
