@@ -9,7 +9,7 @@ Simply click on the “Parking” button on the phone then you can easily enjoy 
 
 ![alt tag](https://i.imgur.com/TyemTU1.png)
 
-The parking space imgae is as follow.
+The returned infomation is as follow.
 
 ![alt tag](https://i.imgur.com/t7K8eYg.jpg)
 
@@ -57,6 +57,7 @@ python Parking_1107.py
 ```
 There are two images in the ```output/```, original camera frame and parking space image for comparison.
 ![alt tag](https://i.imgur.com/HBKYl9O.jpg)
+
 ![alt tag](https://i.imgur.com/t7K8eYg.jpg)
 
 ## Sent the Output Image to LINEbot
