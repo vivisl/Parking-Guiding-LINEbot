@@ -52,13 +52,13 @@ Follow the instructions on the YOLO website above to build YOLOv3 and learn how 
 ## Train the YOLOv3 Program
 Git clone this repository and run the following command. Output image will be stored in ./YOLO3-4-Py/output
 ```
-cd YOLO3-4-Py
+cd YOLO3-4-Py/
 python Parking_1107.py
 ```
 ## Sent the Output Image to LINEbot
 Before runing sendImg.py, you need to instasll [Flask](http://flask.pocoo.org/docs/1.0/installation/) first.
 ```
-cd YOLO3-4-Py
+cd YOLO3-4-Py/
 python sendImg.py
 ```
 ## Get the Parking Space Image
