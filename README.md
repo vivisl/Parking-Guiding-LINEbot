@@ -18,7 +18,7 @@ In addition, it can be further improved by combining with other image processing
 # Outline
 * [Usage Guide](#usage-guide)
   * [Prerequisites](#prerequisites)
-  * [Train the YOLOv3 Program](#train-the-yolov3-program)
+  * [YOLO real-time object detection](#YOLO-real-time-object-detection)
   * [Sent the Output Image to LINEbot](#sent-the-output-image-to-lINEbot)
   * [Get the Parking Space Image](#Get-the-parking-space-image)
     * [Prepare Your Own LINE Provider](#prepare-your-own-LINE-provider)
@@ -49,7 +49,7 @@ which is sent to LINE bot through the FLASK framework.
 
 Follow the instructions on the YOLO website above to build YOLOv3 and learn how it works. Darknet on the CPU is fast but it's like 500 times faster on GPU! So I strongly suggest you to have an Nvidia GPU and you'll have to install CUDA. 
 
-## Train the YOLOv3 Program
+## YOLO real-time object detection
 Git clone this repository and run the following command. Output image will be stored in ```/YOLO3-4-Py/output```
 ```
 cd YOLO3-4-Py/
