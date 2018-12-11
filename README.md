@@ -55,8 +55,13 @@ Git clone this repository and run the following command. Output image will be st
 cd YOLO3-4-Py/
 python Parking_1107.py
 ```
-There are two images in the ```output/```, original camera frame and parking space image for comparison.
+We also store original camera frame in the ```output/``` folder in order to compare with the YOLO detection result.
+
+Original camera frame:
+
 ![alt tag](https://i.imgur.com/HBKYl9O.jpg)
+
+YOLO detection result:
 
 ![alt tag](https://i.imgur.com/t7K8eYg.jpg)
 
